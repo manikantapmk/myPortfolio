@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Navbar.scss"
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { motion } from "framer-motion"
 
 const Navbar = () => {
   return (
@@ -9,13 +13,13 @@ const Navbar = () => {
             <span>Manikanta Dev</span>
             <div className="social">
                 <a href="#">
-                    <img src="" alt="facebook" />
+                <FaFacebook />
                 </a>
                 <a href="#">
-                    <img src="" alt="instagram" />
+                <FaInstagram />
                 </a>
                 <a href="#">
-                    <img src="" alt="github" />
+                <FaGithub />
                 </a>
             </div>
         </div>
